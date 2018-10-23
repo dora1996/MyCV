@@ -11,9 +11,10 @@ article {
   padding:0 1em;
 }
 
-section{
+main section: not(:last-child) {
   margin: 1em;
   padding: 1em;
+  border-bottom: 1px solid grey;
 }
 
 header, main, footer {
@@ -27,20 +28,16 @@ header {
   background-image: url('img/bg.jpg');
   background-position: fixed;
   color: white;
-  
-  
 }
 
 header section {
   margin: 0 auto;
   max-width: 640px;
-  
 }
 
 .header-logo {
 	max-width: 150px;
 	border-radius: 75px;
-
 }
 
 h1 {
@@ -68,6 +65,12 @@ main {
 footer {
  padding: 1em;
 }
+
+h3{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+	
 
 
 
