@@ -50,12 +50,25 @@ main {
 }
 
 .course {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .course .title {
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #509e98;
+	flex: 0 0 33.3%;
+	max-width: 33%;
 }
 
 .course .descrition {
+	flex: 0 0 66.6%;
+	max-width: 66.6%;
+}
+
+.course .descrition p {
+	padding-left: 1em;
 }
 
 .school span {
